@@ -45,10 +45,16 @@ if op=="cot":
 
 if op=="factorial":
     a=int(input("please enter number:"))
-    cal=math.factorial(a)
+    if a <0 :
+        cal="Error!!"
+    else:
+        cal=math.factorial(a)
 
 if op=="sqrt":
     a=int(input("please enter number:"))
-    cal=math.sqrt(a)
+    if a <0 :
+        cal="Error!!"
+    else:
+        cal=math.sqrt(a)
 
 print(cal)

@@ -1,7 +1,10 @@
-m=int(input("what's the length of the board? "))
-n=int(input("what's the wide of the board? "))
-_list=[]
-for j in range(n):
-    for i in range(m):
-        print("▢", end=" ")
+m=int(input("what's the row of the board? "))
+n=int(input("what's the column of the board? "))
+a=[]
+for i in range(m):
+    row=["*#"]*n
+    a+=[row]
+for i in range(m):
+    for j in range(n):
+        print(a[i][j],end=" ")
     print()

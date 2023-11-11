@@ -1,4 +1,4 @@
-import random
+
 board=["-","-","-","-","-","-","-","-","-"]
 currentplayer="X"
 winner=None
